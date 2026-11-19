@@ -1,0 +1,440 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1920,
+      "height": 1080,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "2": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 48,
+      "height": 5,
+      "batch_size": 1,
+      "color": 15249483
+    }
+  },
+  "3": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "2",
+        0
+      ],
+      "x": 96,
+      "y": 72,
+      "resize_source": false
+    }
+  },
+  "4": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1400,
+      "height": 75,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "5": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "4",
+        0
+      ],
+      "text": "02   SKETCH TO RENDER: HOUSE WITH ROOFTOP PV",
+      "font_size": 49.6,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "6": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "3",
+        0
+      ],
+      "source": [
+        "5",
+        0
+      ],
+      "x": 96,
+      "y": 92,
+      "resize_source": false
+    }
+  },
+  "7": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 50,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "8": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "text": "A concept sketch becomes a photoreal render; geometry, roof and the solar array are held by the sketch used as a reference latent.",
+      "font_size": 49.6,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "9": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "6",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "x": 96,
+      "y": 152,
+      "resize_source": false
+    }
+  },
+  "10": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 60,
+      "height": 44,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "11": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "text": "04",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "12": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "9",
+        0
+      ],
+      "source": [
+        "11",
+        0
+      ],
+      "x": 1776,
+      "y": 96,
+      "resize_source": false
+    }
+  },
+  "13": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "14": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "13",
+        0
+      ],
+      "text": "MATTHEW FLAKE  \u00b7  PORTFOLIO 2026  \u00b7  MADE IN COMFYUI",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "15": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "12",
+        0
+      ],
+      "source": [
+        "14",
+        0
+      ],
+      "x": 96,
+      "y": 1034,
+      "resize_source": false
+    }
+  },
+  "16": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 560,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "17": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "16",
+        0
+      ],
+      "text": "Input  \u00b7  concept sketch  \u00b7  Z-Image-Turbo",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "18": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "15",
+        0
+      ],
+      "source": [
+        "17",
+        0
+      ],
+      "x": 96,
+      "y": 602,
+      "resize_source": false
+    }
+  },
+  "19": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 560,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "20": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "text": "Variant  \u00b7  blue hour, same geometry",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "21": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "18",
+        0
+      ],
+      "source": [
+        "20",
+        0
+      ],
+      "x": 96,
+      "y": 968,
+      "resize_source": false
+    }
+  },
+  "22": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1120,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "23": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "22",
+        0
+      ],
+      "text": "Output  \u00b7  day render  \u00b7  FLUX.2 [klein] 4B  \u00b7  sketch as reference",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "24": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "21",
+        0
+      ],
+      "source": [
+        "23",
+        0
+      ],
+      "x": 704,
+      "y": 968,
+      "resize_source": false
+    }
+  },
+  "25": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "02_house_sketch.png"
+    },
+    "is_changed": [
+      "bea135cdd4cfb1c5a72eeb07988b5de4efd7cfc3a67818ca5550ee9d907c32f1"
+    ]
+  },
+  "26": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "25",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 560,
+      "height": 383,
+      "crop": "center"
+    }
+  },
+  "27": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "24",
+        0
+      ],
+      "source": [
+        "26",
+        0
+      ],
+      "x": 96,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "28": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "09_house_blue_hour.png"
+    },
+    "is_changed": [
+      "08704d4bdcfef813581206f4fc102bb1a783172b5b15cce999836c7a857e952b"
+    ]
+  },
+  "29": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "28",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 560,
+      "height": 315,
+      "crop": "center"
+    }
+  },
+  "30": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "27",
+        0
+      ],
+      "source": [
+        "29",
+        0
+      ],
+      "x": 96,
+      "y": 646,
+      "resize_source": false
+    }
+  },
+  "31": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "08_house_day.png"
+    },
+    "is_changed": [
+      "5195c30863b06f7f009338d795c1863149c5651a67b80c73027d83883a967019"
+    ]
+  },
+  "32": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "31",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 1120,
+      "height": 749,
+      "crop": "center"
+    }
+  },
+  "33": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "30",
+        0
+      ],
+      "source": [
+        "32",
+        0
+      ],
+      "x": 704,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "34": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "33",
+        0
+      ],
+      "filename_prefix": "portfolio/pages/04_arch_viz"
+    }
+  }
+}

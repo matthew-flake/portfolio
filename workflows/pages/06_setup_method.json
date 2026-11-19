@@ -1,0 +1,966 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1920,
+      "height": 1080,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "2": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 48,
+      "height": 5,
+      "batch_size": 1,
+      "color": 15249483
+    }
+  },
+  "3": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "2",
+        0
+      ],
+      "x": 96,
+      "y": 72,
+      "resize_source": false
+    }
+  },
+  "4": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1400,
+      "height": 75,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "5": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "4",
+        0
+      ],
+      "text": "04   SETUP & METHOD",
+      "font_size": 49.6,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "6": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "3",
+        0
+      ],
+      "source": [
+        "5",
+        0
+      ],
+      "x": 96,
+      "y": 92,
+      "resize_source": false
+    }
+  },
+  "7": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 50,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "8": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "text": "Everything here was generated and laid out locally, in ComfyUI only, with built-in nodes for the page layout.",
+      "font_size": 49.6,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "9": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "6",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "x": 96,
+      "y": 152,
+      "resize_source": false
+    }
+  },
+  "10": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 60,
+      "height": 44,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "11": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "text": "06",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "12": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "9",
+        0
+      ],
+      "source": [
+        "11",
+        0
+      ],
+      "x": 1776,
+      "y": 96,
+      "resize_source": false
+    }
+  },
+  "13": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "14": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "13",
+        0
+      ],
+      "text": "MATTHEW FLAKE  ·  PORTFOLIO 2026  ·  MADE IN COMFYUI",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "15": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "12",
+        0
+      ],
+      "source": [
+        "14",
+        0
+      ],
+      "x": 96,
+      "y": 1034,
+      "resize_source": false
+    }
+  },
+  "16": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 800,
+      "height": 55,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "17": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "16",
+        0
+      ],
+      "text": "BOOKS",
+      "font_size": 49.6,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "18": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "15",
+        0
+      ],
+      "source": [
+        "17",
+        0
+      ],
+      "x": 96,
+      "y": 240,
+      "resize_source": false
+    }
+  },
+  "19": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 860,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "20": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "text": "Node by Node: ComfyUI from Your First Image to Your Own Workflow",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "21": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "18",
+        0
+      ],
+      "source": [
+        "20",
+        0
+      ],
+      "x": 96,
+      "y": 292,
+      "resize_source": false
+    }
+  },
+  "22": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 860,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "23": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "22",
+        0
+      ],
+      "text": "From Noise to Income: The ComfyUI Handbook",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "24": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "21",
+        0
+      ],
+      "source": [
+        "23",
+        0
+      ],
+      "x": 96,
+      "y": 336,
+      "resize_source": false
+    }
+  },
+  "25": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 860,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "26": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "25",
+        0
+      ],
+      "text": "32 tested workflows (UI + API) in two companion packs",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "27": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "24",
+        0
+      ],
+      "source": [
+        "26",
+        0
+      ],
+      "x": 96,
+      "y": 380,
+      "resize_source": false
+    }
+  },
+  "28": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 800,
+      "height": 55,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "29": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "28",
+        0
+      ],
+      "text": "METHOD",
+      "font_size": 49.6,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "30": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "27",
+        0
+      ],
+      "source": [
+        "29",
+        0
+      ],
+      "x": 96,
+      "y": 480,
+      "resize_source": false
+    }
+  },
+  "31": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 860,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "32": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "31",
+        0
+      ],
+      "text": "Workflows built and tested end to end, with written test reports",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "33": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "30",
+        0
+      ],
+      "source": [
+        "32",
+        0
+      ],
+      "x": 96,
+      "y": 532,
+      "resize_source": false
+    }
+  },
+  "34": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 860,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "35": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "34",
+        0
+      ],
+      "text": "Model licences checked before commercial use",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "36": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "33",
+        0
+      ],
+      "source": [
+        "35",
+        0
+      ],
+      "x": 96,
+      "y": 576,
+      "resize_source": false
+    }
+  },
+  "37": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 860,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "38": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "37",
+        0
+      ],
+      "text": "Every image reproducible from its workflow JSON",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "39": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "36",
+        0
+      ],
+      "source": [
+        "38",
+        0
+      ],
+      "x": 96,
+      "y": 620,
+      "resize_source": false
+    }
+  },
+  "40": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 860,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "41": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "40",
+        0
+      ],
+      "text": "Page layout: EmptyImage, ImageScale, TextOverlay, ImageCompositeMasked",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "42": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "39",
+        0
+      ],
+      "source": [
+        "41",
+        0
+      ],
+      "x": 96,
+      "y": 664,
+      "resize_source": false
+    }
+  },
+  "43": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 800,
+      "height": 55,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "44": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "43",
+        0
+      ],
+      "text": "SETUP",
+      "font_size": 49.6,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "45": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "42",
+        0
+      ],
+      "source": [
+        "44",
+        0
+      ],
+      "x": 1008,
+      "y": 240,
+      "resize_source": false
+    }
+  },
+  "46": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 816,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "47": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "46",
+        0
+      ],
+      "text": "Intel Core i5-14400F  ·  32 GB RAM",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "48": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "45",
+        0
+      ],
+      "source": [
+        "47",
+        0
+      ],
+      "x": 1008,
+      "y": 292,
+      "resize_source": false
+    }
+  },
+  "49": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 816,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "50": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "49",
+        0
+      ],
+      "text": "NVIDIA GeForce RTX 5060  ·  8 GB VRAM",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "51": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "48",
+        0
+      ],
+      "source": [
+        "50",
+        0
+      ],
+      "x": 1008,
+      "y": 336,
+      "resize_source": false
+    }
+  },
+  "52": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 816,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "53": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "52",
+        0
+      ],
+      "text": "Windows 11  ·  ComfyUI 0.39",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "54": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "51",
+        0
+      ],
+      "source": [
+        "53",
+        0
+      ],
+      "x": 1008,
+      "y": 380,
+      "resize_source": false
+    }
+  },
+  "55": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 800,
+      "height": 55,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "56": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "55",
+        0
+      ],
+      "text": "TIMINGS (MODEL LOADED)",
+      "font_size": 49.6,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "57": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "54",
+        0
+      ],
+      "source": [
+        "56",
+        0
+      ],
+      "x": 1008,
+      "y": 480,
+      "resize_source": false
+    }
+  },
+  "58": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 816,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "59": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "58",
+        0
+      ],
+      "text": "Z-Image-Turbo  ·  8 steps  ·  about 16 s per image",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "60": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "57",
+        0
+      ],
+      "source": [
+        "59",
+        0
+      ],
+      "x": 1008,
+      "y": 532,
+      "resize_source": false
+    }
+  },
+  "61": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 816,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "62": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "61",
+        0
+      ],
+      "text": "FLUX.2 [klein] 4B  ·  4 steps  ·  about 10 s per image",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "63": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "60",
+        0
+      ],
+      "source": [
+        "62",
+        0
+      ],
+      "x": 1008,
+      "y": 576,
+      "resize_source": false
+    }
+  },
+  "64": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 816,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "65": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "64",
+        0
+      ],
+      "text": "Page layout  ·  under 1 s per page",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "66": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "63",
+        0
+      ],
+      "source": [
+        "65",
+        0
+      ],
+      "x": 1008,
+      "y": 620,
+      "resize_source": false
+    }
+  },
+  "67": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "68": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "67",
+        0
+      ],
+      "text": "Workflows and test report: github.com/matthew-flake/portfolio",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "69": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "66",
+        0
+      ],
+      "source": [
+        "68",
+        0
+      ],
+      "x": 96,
+      "y": 820,
+      "resize_source": false
+    }
+  },
+  "70": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "71": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "70",
+        0
+      ],
+      "text": "Matthew Flake is the pen name I publish my ComfyUI books under.",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "72": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "69",
+        0
+      ],
+      "source": [
+        "71",
+        0
+      ],
+      "x": 96,
+      "y": 864,
+      "resize_source": false
+    }
+  },
+  "73": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "72",
+        0
+      ],
+      "filename_prefix": "portfolio/pages/06_setup_method"
+    }
+  }
+}

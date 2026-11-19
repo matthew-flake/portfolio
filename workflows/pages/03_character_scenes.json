@@ -1,0 +1,440 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1920,
+      "height": 1080,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "2": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 48,
+      "height": 5,
+      "batch_size": 1,
+      "color": 15249483
+    }
+  },
+  "3": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "2",
+        0
+      ],
+      "x": 96,
+      "y": 72,
+      "resize_source": false
+    }
+  },
+  "4": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1400,
+      "height": 75,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "5": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "4",
+        0
+      ],
+      "text": "01   SAME CHARACTER, THREE SCENES",
+      "font_size": 49.6,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "6": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "3",
+        0
+      ],
+      "source": [
+        "5",
+        0
+      ],
+      "x": 96,
+      "y": 92,
+      "resize_source": false
+    }
+  },
+  "7": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 50,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "8": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "text": "Each scene feeds the turnaround sheet in as a reference latent, so face, outfit and proportions stay consistent.",
+      "font_size": 49.6,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "9": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "6",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "x": 96,
+      "y": 152,
+      "resize_source": false
+    }
+  },
+  "10": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 60,
+      "height": 44,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "11": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "text": "03",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "12": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "9",
+        0
+      ],
+      "source": [
+        "11",
+        0
+      ],
+      "x": 1776,
+      "y": 96,
+      "resize_source": false
+    }
+  },
+  "13": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "14": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "13",
+        0
+      ],
+      "text": "MATTHEW FLAKE  \u00b7  PORTFOLIO 2026  \u00b7  MADE IN COMFYUI",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "15": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "12",
+        0
+      ],
+      "source": [
+        "14",
+        0
+      ],
+      "x": 96,
+      "y": 1034,
+      "resize_source": false
+    }
+  },
+  "16": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 552,
+      "height": 36,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "17": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "16",
+        0
+      ],
+      "text": "Greenhouse workshop",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "18": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "15",
+        0
+      ],
+      "source": [
+        "17",
+        0
+      ],
+      "x": 96,
+      "y": 960,
+      "resize_source": false
+    }
+  },
+  "19": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 552,
+      "height": 36,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "20": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "text": "Rainy street at night",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "21": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "18",
+        0
+      ],
+      "source": [
+        "20",
+        0
+      ],
+      "x": 684,
+      "y": 960,
+      "resize_source": false
+    }
+  },
+  "22": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 552,
+      "height": 36,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "23": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "22",
+        0
+      ],
+      "text": "Wind turbine at dusk",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "24": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "21",
+        0
+      ],
+      "source": [
+        "23",
+        0
+      ],
+      "x": 1272,
+      "y": 960,
+      "resize_source": false
+    }
+  },
+  "25": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "05_nova_greenhouse.png"
+    },
+    "is_changed": [
+      "56be97d6ee76aa753e4b032f959cc1514d4992feaa4fcabe554ae37f4e5038fe"
+    ]
+  },
+  "26": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "25",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 552,
+      "height": 736,
+      "crop": "center"
+    }
+  },
+  "27": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "24",
+        0
+      ],
+      "source": [
+        "26",
+        0
+      ],
+      "x": 96,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "28": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "06_nova_rain.png"
+    },
+    "is_changed": [
+      "7c56a0e9c48f9bfd40d0e32ad0f7f31c910e7c5a67a66e0c6e01d4a8b75963e7"
+    ]
+  },
+  "29": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "28",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 552,
+      "height": 736,
+      "crop": "center"
+    }
+  },
+  "30": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "27",
+        0
+      ],
+      "source": [
+        "29",
+        0
+      ],
+      "x": 684,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "31": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "07_nova_dusk.png"
+    },
+    "is_changed": [
+      "6dc14bed33e24df5a91ee5322406b9b07c25c6a4f25d8dde9436241a9bd3ad50"
+    ]
+  },
+  "32": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "31",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 552,
+      "height": 736,
+      "crop": "center"
+    }
+  },
+  "33": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "30",
+        0
+      ],
+      "source": [
+        "32",
+        0
+      ],
+      "x": 1272,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "34": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "33",
+        0
+      ],
+      "filename_prefix": "portfolio/pages/03_character_scenes"
+    }
+  }
+}

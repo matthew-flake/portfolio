@@ -1,0 +1,444 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1920,
+      "height": 1080,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "2": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 440,
+      "height": 164,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "3": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "2",
+        0
+      ],
+      "text": "MATTHEW",
+      "font_size": 49.8,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "4": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "3",
+        0
+      ],
+      "x": 96,
+      "y": 324,
+      "resize_source": false
+    }
+  },
+  "5": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 440,
+      "height": 164,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "6": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "5",
+        0
+      ],
+      "text": "FLAKE",
+      "font_size": 49.8,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "7": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "4",
+        0
+      ],
+      "source": [
+        "6",
+        0
+      ],
+      "x": 96,
+      "y": 420,
+      "resize_source": false
+    }
+  },
+  "8": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 440,
+      "height": 60,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "9": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "text": "ComfyUI workflow designer",
+      "font_size": 49.9,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "10": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "7",
+        0
+      ],
+      "source": [
+        "9",
+        0
+      ],
+      "x": 96,
+      "y": 548,
+      "resize_source": false
+    }
+  },
+  "11": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 440,
+      "height": 60,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "12": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "11",
+        0
+      ],
+      "text": "& technical AI artist",
+      "font_size": 49.9,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "13": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "10",
+        0
+      ],
+      "source": [
+        "12",
+        0
+      ],
+      "x": 96,
+      "y": 592,
+      "resize_source": false
+    }
+  },
+  "14": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 440,
+      "height": 43,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "15": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "text": "Portfolio 2026",
+      "font_size": 49.0,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "16": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "13",
+        0
+      ],
+      "source": [
+        "15",
+        0
+      ],
+      "x": 96,
+      "y": 688,
+      "resize_source": false
+    }
+  },
+  "17": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 440,
+      "height": 43,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "18": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "17",
+        0
+      ],
+      "text": "Every page made in ComfyUI",
+      "font_size": 49.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "19": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "16",
+        0
+      ],
+      "source": [
+        "18",
+        0
+      ],
+      "x": 96,
+      "y": 722,
+      "resize_source": false
+    }
+  },
+  "20": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 440,
+      "height": 43,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "21": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "20",
+        0
+      ],
+      "text": "RTX 5060 \u00b7 8 GB VRAM",
+      "font_size": 49.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "22": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "19",
+        0
+      ],
+      "source": [
+        "21",
+        0
+      ],
+      "x": 96,
+      "y": 756,
+      "resize_source": false
+    }
+  },
+  "23": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "24": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "23",
+        0
+      ],
+      "text": "github.com/matthew-flake",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "25": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "22",
+        0
+      ],
+      "source": [
+        "24",
+        0
+      ],
+      "x": 96,
+      "y": 1034,
+      "resize_source": false
+    }
+  },
+  "26": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 48,
+      "height": 5,
+      "batch_size": 1,
+      "color": 15249483
+    }
+  },
+  "27": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "25",
+        0
+      ],
+      "source": [
+        "26",
+        0
+      ],
+      "x": 96,
+      "y": 300,
+      "resize_source": false
+    }
+  },
+  "28": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "01_key_visual.png"
+    },
+    "is_changed": [
+      "76097a58d48a6fd7f1be32d3f52659979a0c41440bffbcf9976074f6764effbb"
+    ]
+  },
+  "29": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "28",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 1264,
+      "height": 711,
+      "crop": "center"
+    }
+  },
+  "30": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "27",
+        0
+      ],
+      "source": [
+        "29",
+        0
+      ],
+      "x": 560,
+      "y": 180,
+      "resize_source": false
+    }
+  },
+  "31": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1264,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "32": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "31",
+        0
+      ],
+      "text": "Key visual  \u00b7  Z-Image-Turbo  \u00b7  8 steps  \u00b7  1536 x 864 px",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "33": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "30",
+        0
+      ],
+      "source": [
+        "32",
+        0
+      ],
+      "x": 560,
+      "y": 903,
+      "resize_source": false
+    }
+  },
+  "34": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "33",
+        0
+      ],
+      "filename_prefix": "portfolio/pages/01_cover"
+    }
+  }
+}
