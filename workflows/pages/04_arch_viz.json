@@ -49,7 +49,7 @@
         "4",
         0
       ],
-      "text": "02   SKETCH TO RENDER: HOUSE WITH ROOFTOP PV",
+      "text": "02   SKETCH TO RENDER: SINGLE-FAMILY HOUSE",
       "font_size": 49.6,
       "color": "#EDE6D6",
       "position": "top",
@@ -89,7 +89,7 @@
         "7",
         0
       ],
-      "text": "A concept sketch becomes a photoreal render; geometry, roof and the solar array are held by the sketch used as a reference latent.",
+      "text": "A concept sketch becomes a photoreal render; massing, roof and facade are held by the sketch used as a reference latent.",
       "font_size": 49.6,
       "color": "#9C978D",
       "position": "top",

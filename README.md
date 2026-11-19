@@ -14,8 +14,8 @@ I designed one original character from a text brief and generated a three-view t
 ![Character sheet](pages/02_character_sheet.png)
 ![Character scenes](pages/03_character_scenes.png)
 
-### 02 · Sketch to render: house with rooftop PV
-A concept sketch is used as the reference for a photoreal day render and a blue-hour variant. The geometry, roof pitch and solar array layout carry over from the sketch.
+### 02 · Sketch to render: single-family house
+A concept sketch is used as the reference for a photoreal day render and a blue-hour variant. The massing, roof pitch and facade carry over from the sketch.
 
 ![Arch viz](pages/04_arch_viz.png)
 
