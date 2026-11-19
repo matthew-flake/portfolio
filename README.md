@@ -50,7 +50,7 @@ Seeds are fixed, but results can still differ slightly between GPUs, drivers and
 
 I write about ComfyUI under this pen name. The companion workflow packs are public:
 
-- [**node-by-node**](https://github.com/matthew-flake/node-by-node): *Node by Node: ComfyUI from Your First Image to Your Own Workflow*
+- [**node-by-node**](https://github.com/matthew-flake/node-by-node): *Node by Node. ComfyUI from Your First Image to Your Own Workflow*
 - [**from-noise-to-income**](https://github.com/matthew-flake/from-noise-to-income): *From Noise to Income: The ComfyUI Handbook*
 
 ## Licence
