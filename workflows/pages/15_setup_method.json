@@ -49,7 +49,7 @@
         "4",
         0
       ],
-      "text": "08   SETUP & METHOD",
+      "text": "12   SETUP & METHOD",
       "font_size": 49.6,
       "color": "#EDE6D6",
       "position": "top",
@@ -129,7 +129,7 @@
         "10",
         0
       ],
-      "text": "11",
+      "text": "15",
       "font_size": 50.0,
       "color": "#9C978D",
       "position": "top",
@@ -960,7 +960,7 @@
         "72",
         0
       ],
-      "filename_prefix": "portfolio/pages/11_setup_method"
+      "filename_prefix": "portfolio/pages/15_setup_method"
     }
   }
 }

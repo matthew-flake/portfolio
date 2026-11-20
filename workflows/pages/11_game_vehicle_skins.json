@@ -1,0 +1,916 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1920,
+      "height": 1080,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "2": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 48,
+      "height": 5,
+      "batch_size": 1,
+      "color": 15249483
+    }
+  },
+  "3": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "2",
+        0
+      ],
+      "x": 96,
+      "y": 72,
+      "resize_source": false
+    }
+  },
+  "4": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1400,
+      "height": 75,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "5": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "4",
+        0
+      ],
+      "text": "08   VEHICLE SKINS & UI ICONS",
+      "font_size": 49.6,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "6": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "3",
+        0
+      ],
+      "source": [
+        "5",
+        0
+      ],
+      "x": 96,
+      "y": 92,
+      "resize_source": false
+    }
+  },
+  "7": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 50,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "8": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "text": "Three camouflage skins of the same tank, each generated from the side view on the design sheet, plus two item icon sets.",
+      "font_size": 49.6,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "9": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "6",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "x": 96,
+      "y": 152,
+      "resize_source": false
+    }
+  },
+  "10": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 60,
+      "height": 44,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "11": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "text": "11",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "12": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "9",
+        0
+      ],
+      "source": [
+        "11",
+        0
+      ],
+      "x": 1776,
+      "y": 96,
+      "resize_source": false
+    }
+  },
+  "13": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "14": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "13",
+        0
+      ],
+      "text": "MATTHEW FLAKE  ·  PORTFOLIO 2026  ·  MADE IN COMFYUI",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "15": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "12",
+        0
+      ],
+      "source": [
+        "14",
+        0
+      ],
+      "x": 96,
+      "y": 1034,
+      "resize_source": false
+    }
+  },
+  "16": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "25_game_tank_camo_winter.png"
+    },
+    "is_changed": [
+      "91aab3894816f3e26008e81a29100413452a1d94fcbad9d7efbaa3c7550c4df1"
+    ]
+  },
+  "17": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "16",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 552,
+      "height": 315,
+      "crop": "center"
+    }
+  },
+  "18": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "15",
+        0
+      ],
+      "source": [
+        "17",
+        0
+      ],
+      "x": 96,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "19": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 552,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "20": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "text": "Winter whitewash  ·  same hull, turret and gun",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "21": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "18",
+        0
+      ],
+      "source": [
+        "20",
+        0
+      ],
+      "x": 96,
+      "y": 537,
+      "resize_source": false
+    }
+  },
+  "22": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "26_game_tank_camo_desert.png"
+    },
+    "is_changed": [
+      "1030202ad9e84ddded5febc759eb8590b69245f9281c17f9dbb812210d03b489"
+    ]
+  },
+  "23": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "22",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 552,
+      "height": 315,
+      "crop": "center"
+    }
+  },
+  "24": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "21",
+        0
+      ],
+      "source": [
+        "23",
+        0
+      ],
+      "x": 684,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "25": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 552,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "26": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "25",
+        0
+      ],
+      "text": "Two-tone desert  ·  same hull, turret and gun",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "27": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "24",
+        0
+      ],
+      "source": [
+        "26",
+        0
+      ],
+      "x": 684,
+      "y": 537,
+      "resize_source": false
+    }
+  },
+  "28": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "27_game_tank_camo_woodland.png"
+    },
+    "is_changed": [
+      "bc90c5d84fc8d12e405fb7f217d8c9c826703390b8a579fb1faa23c4f910dca2"
+    ]
+  },
+  "29": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "28",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 552,
+      "height": 315,
+      "crop": "center"
+    }
+  },
+  "30": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "27",
+        0
+      ],
+      "source": [
+        "29",
+        0
+      ],
+      "x": 1272,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "31": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 552,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "32": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "31",
+        0
+      ],
+      "text": "Three-colour woodland  ·  same hull, turret and gun",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "33": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "30",
+        0
+      ],
+      "source": [
+        "32",
+        0
+      ],
+      "x": 1272,
+      "y": 537,
+      "resize_source": false
+    }
+  },
+  "34": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "28_game_icons_military.png"
+    },
+    "is_changed": [
+      "f4616e88481f168db5d359df8dc3dee3b5c5e32cbf4ae0797fea41bf7f30c713"
+    ]
+  },
+  "35": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "34",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 370,
+      "height": 370,
+      "crop": "center"
+    }
+  },
+  "36": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "33",
+        0
+      ],
+      "source": [
+        "35",
+        0
+      ],
+      "x": 96,
+      "y": 600,
+      "resize_source": false
+    }
+  },
+  "37": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 370,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "38": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "37",
+        0
+      ],
+      "text": "Vehicle consumables  ·  3 x 3",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "39": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "36",
+        0
+      ],
+      "source": [
+        "38",
+        0
+      ],
+      "x": 96,
+      "y": 980,
+      "resize_source": false
+    }
+  },
+  "40": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "29_game_icons_scifi.png"
+    },
+    "is_changed": [
+      "495498a1085a17087570112c88374b80762c147234c27e26a0cb8acef06321bd"
+    ]
+  },
+  "41": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "40",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 370,
+      "height": 370,
+      "crop": "center"
+    }
+  },
+  "42": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "39",
+        0
+      ],
+      "source": [
+        "41",
+        0
+      ],
+      "x": 498,
+      "y": 600,
+      "resize_source": false
+    }
+  },
+  "43": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 370,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "44": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "43",
+        0
+      ],
+      "text": "Sci-fi battle royale loot  ·  3 x 3",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "45": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "42",
+        0
+      ],
+      "source": [
+        "44",
+        0
+      ],
+      "x": 498,
+      "y": 980,
+      "resize_source": false
+    }
+  },
+  "46": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 884,
+      "height": 55,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "47": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "46",
+        0
+      ],
+      "text": "HOW THE SKINS STAY ON-MODEL",
+      "font_size": 49.6,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "48": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "45",
+        0
+      ],
+      "source": [
+        "47",
+        0
+      ],
+      "x": 940,
+      "y": 600,
+      "resize_source": false
+    }
+  },
+  "49": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 884,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "50": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "49",
+        0
+      ],
+      "text": "The side view is cropped from the sheet inside the graph",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "51": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "48",
+        0
+      ],
+      "source": [
+        "50",
+        0
+      ],
+      "x": 940,
+      "y": 656,
+      "resize_source": false
+    }
+  },
+  "52": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 884,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "53": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "52",
+        0
+      ],
+      "text": "and fed to FLUX.2 [klein] 4B as a reference latent.",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "54": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "51",
+        0
+      ],
+      "source": [
+        "53",
+        0
+      ],
+      "x": 940,
+      "y": 700,
+      "resize_source": false
+    }
+  },
+  "55": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 884,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "56": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "55",
+        0
+      ],
+      "text": "Only the paint description changes between skins.",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "57": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "54",
+        0
+      ],
+      "source": [
+        "56",
+        0
+      ],
+      "x": 940,
+      "y": 744,
+      "resize_source": false
+    }
+  },
+  "58": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 884,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "59": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "58",
+        0
+      ],
+      "text": "Each candidate is checked against the sheet: five road",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "60": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "57",
+        0
+      ],
+      "source": [
+        "59",
+        0
+      ],
+      "x": 940,
+      "y": 788,
+      "resize_source": false
+    }
+  },
+  "61": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 884,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "62": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "61",
+        0
+      ],
+      "text": "wheels, cupola, muzzle brake, drum on the rear deck.",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "63": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "60",
+        0
+      ],
+      "source": [
+        "62",
+        0
+      ],
+      "x": 940,
+      "y": 832,
+      "resize_source": false
+    }
+  },
+  "64": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 884,
+      "height": 55,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "65": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "64",
+        0
+      ],
+      "text": "ICON SETS",
+      "font_size": 49.6,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "66": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "63",
+        0
+      ],
+      "source": [
+        "65",
+        0
+      ],
+      "x": 940,
+      "y": 900,
+      "resize_source": false
+    }
+  },
+  "67": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 884,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "68": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "67",
+        0
+      ],
+      "text": "One prompt per set, nine items, each item once, no text.",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "69": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "66",
+        0
+      ],
+      "source": [
+        "68",
+        0
+      ],
+      "x": 940,
+      "y": 952,
+      "resize_source": false
+    }
+  },
+  "70": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "69",
+        0
+      ],
+      "filename_prefix": "portfolio/pages/11_game_vehicle_skins"
+    }
+  }
+}

@@ -89,7 +89,7 @@
         "7",
         0
       ],
-      "text": "Original vehicle designs: a key art image becomes the reference for a three-view sheet, so the design holds across views.",
+      "text": "Original vehicle designs: every view on the sheet is generated from the key art as a reference, so the design holds across views.",
       "font_size": 49.6,
       "color": "#9C978D",
       "position": "top",
@@ -289,7 +289,7 @@
         "22",
         0
       ],
-      "text": "Three-view sheet  ·  FLUX.2 [klein] 4B, key art as reference",
+      "text": "Design sheet  ·  side, 3/4, front, turret detail  ·  FLUX.2 [klein] 4B",
       "font_size": 49.7,
       "color": "#9C978D",
       "position": "top",
@@ -395,7 +395,7 @@
       "image": "15_game_tank_sheet.png"
     },
     "is_changed": [
-      "93b648d60ff7643368a1246ed02a76d4c5e76ab9351bc72f30f6122b1d7c6cca"
+      "8251901b45879881a8696aee8a6cf8c8c9ad8fc9faab399ae90b589c432e7c2e"
     ]
   },
   "32": {

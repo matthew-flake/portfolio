@@ -1,0 +1,1072 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1920,
+      "height": 1080,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "2": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 48,
+      "height": 5,
+      "batch_size": 1,
+      "color": 15249483
+    }
+  },
+  "3": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "2",
+        0
+      ],
+      "x": 96,
+      "y": 72,
+      "resize_source": false
+    }
+  },
+  "4": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1400,
+      "height": 75,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "5": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "4",
+        0
+      ],
+      "text": "11   PROCESS: FROM SHEET TO SKIN",
+      "font_size": 49.6,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "6": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "3",
+        0
+      ],
+      "source": [
+        "5",
+        0
+      ],
+      "x": 96,
+      "y": 92,
+      "resize_source": false
+    }
+  },
+  "7": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 50,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "8": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "text": "The real first pass and the fixes: each skin is checked against the turnaround sheet and re-rendered with a new seed if it fails.",
+      "font_size": 49.6,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "9": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "6",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "x": 96,
+      "y": 152,
+      "resize_source": false
+    }
+  },
+  "10": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 60,
+      "height": 44,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "11": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "text": "14",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "12": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "9",
+        0
+      ],
+      "source": [
+        "11",
+        0
+      ],
+      "x": 1776,
+      "y": 96,
+      "resize_source": false
+    }
+  },
+  "13": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "14": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "13",
+        0
+      ],
+      "text": "MATTHEW FLAKE  ·  PORTFOLIO 2026  ·  MADE IN COMFYUI",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "15": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "12",
+        0
+      ],
+      "source": [
+        "14",
+        0
+      ],
+      "x": 96,
+      "y": 1034,
+      "resize_source": false
+    }
+  },
+  "16": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "21_game_courier_sheet.png"
+    },
+    "is_changed": [
+      "0e5e3968ff80f5d537f66e64a78491801a6b0a47592e4d74a2c928fb75245b78"
+    ]
+  },
+  "17": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "16",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 560,
+      "height": 320,
+      "crop": "center"
+    }
+  },
+  "18": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "15",
+        0
+      ],
+      "source": [
+        "17",
+        0
+      ],
+      "x": 96,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "19": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 560,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "20": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "text": "1  Reference: three-view turnaround sheet",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "21": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "18",
+        0
+      ],
+      "source": [
+        "20",
+        0
+      ],
+      "x": 96,
+      "y": 540,
+      "resize_source": false
+    }
+  },
+  "22": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1120,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "23": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "22",
+        0
+      ],
+      "text": "2  Sheet goes in as a reference latent (FLUX.2 [klein] 4B)",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "24": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "21",
+        0
+      ],
+      "source": [
+        "23",
+        0
+      ],
+      "x": 704,
+      "y": 240,
+      "resize_source": false
+    }
+  },
+  "25": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1120,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "26": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "25",
+        0
+      ],
+      "text": "3  First pass: three skins, fixed seeds, 4 steps each",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "27": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "24",
+        0
+      ],
+      "source": [
+        "26",
+        0
+      ],
+      "x": 704,
+      "y": 292,
+      "resize_source": false
+    }
+  },
+  "28": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1120,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "29": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "28",
+        0
+      ],
+      "text": "4  Review against the sheet: face, hair colour, proportions, lettering",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "30": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "27",
+        0
+      ],
+      "source": [
+        "29",
+        0
+      ],
+      "x": 704,
+      "y": 344,
+      "resize_source": false
+    }
+  },
+  "31": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1120,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "32": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "31",
+        0
+      ],
+      "text": "5  Failures re-rendered with a new seed; prompt tightened if needed",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "33": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "30",
+        0
+      ],
+      "source": [
+        "32",
+        0
+      ],
+      "x": 704,
+      "y": 396,
+      "resize_source": false
+    }
+  },
+  "34": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1120,
+      "height": 48,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "35": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "34",
+        0
+      ],
+      "text": "6  Final graph exported as API JSON for batch runs",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "36": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "33",
+        0
+      ],
+      "source": [
+        "35",
+        0
+      ],
+      "x": 704,
+      "y": 448,
+      "resize_source": false
+    }
+  },
+  "37": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 512,
+      "height": 36,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "38": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "37",
+        0
+      ],
+      "text": "Winter  ·  v1: pseudo-lettering on lanterns",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "39": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "36",
+        0
+      ],
+      "source": [
+        "38",
+        0
+      ],
+      "x": 96,
+      "y": 590,
+      "resize_source": false
+    }
+  },
+  "40": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 250,
+      "height": 30,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "41": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "40",
+        0
+      ],
+      "text": "v1  ·  rejected",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "42": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "39",
+        0
+      ],
+      "source": [
+        "41",
+        0
+      ],
+      "x": 96,
+      "y": 630,
+      "resize_source": false
+    }
+  },
+  "43": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 250,
+      "height": 30,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "44": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "43",
+        0
+      ],
+      "text": "v2  ·  final",
+      "font_size": 50.0,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "45": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "42",
+        0
+      ],
+      "source": [
+        "44",
+        0
+      ],
+      "x": 358,
+      "y": 630,
+      "resize_source": false
+    }
+  },
+  "46": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "32_process_winter_v1.png"
+    },
+    "is_changed": [
+      "b0b86b10c0976236c6dc98c911c5f79003377da78920bb37769e84a38719e51b"
+    ]
+  },
+  "47": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "46",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 250,
+      "height": 333,
+      "crop": "center"
+    }
+  },
+  "48": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "45",
+        0
+      ],
+      "source": [
+        "47",
+        0
+      ],
+      "x": 96,
+      "y": 664,
+      "resize_source": false
+    }
+  },
+  "49": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "22_game_courier_winter.png"
+    },
+    "is_changed": [
+      "3983ac1f6d465a2c33bc778ca32a1f6eba7fce68440dd13a112b072191350222"
+    ]
+  },
+  "50": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "49",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 250,
+      "height": 333,
+      "crop": "center"
+    }
+  },
+  "51": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "48",
+        0
+      ],
+      "source": [
+        "50",
+        0
+      ],
+      "x": 358,
+      "y": 664,
+      "resize_source": false
+    }
+  },
+  "52": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 512,
+      "height": 36,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "53": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "52",
+        0
+      ],
+      "text": "Neon  ·  v1: hair colour drifted, fake signs",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "54": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "51",
+        0
+      ],
+      "source": [
+        "53",
+        0
+      ],
+      "x": 704,
+      "y": 590,
+      "resize_source": false
+    }
+  },
+  "55": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 250,
+      "height": 30,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "56": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "55",
+        0
+      ],
+      "text": "v1  ·  rejected",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "57": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "54",
+        0
+      ],
+      "source": [
+        "56",
+        0
+      ],
+      "x": 704,
+      "y": 630,
+      "resize_source": false
+    }
+  },
+  "58": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 250,
+      "height": 30,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "59": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "58",
+        0
+      ],
+      "text": "v2  ·  final",
+      "font_size": 50.0,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "60": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "57",
+        0
+      ],
+      "source": [
+        "59",
+        0
+      ],
+      "x": 966,
+      "y": 630,
+      "resize_source": false
+    }
+  },
+  "61": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "33_process_neon_v1.png"
+    },
+    "is_changed": [
+      "5c1bfb7a4e9f2f0999a1a45a427cc83c0c465e87076d01c45a9e26d0fb140799"
+    ]
+  },
+  "62": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "61",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 250,
+      "height": 333,
+      "crop": "center"
+    }
+  },
+  "63": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "60",
+        0
+      ],
+      "source": [
+        "62",
+        0
+      ],
+      "x": 704,
+      "y": 664,
+      "resize_source": false
+    }
+  },
+  "64": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "23_game_courier_neon.png"
+    },
+    "is_changed": [
+      "49912572947e344f1ecb982a1f92eab5f3e2521df3ae52f13e2f3ec3d914ec95"
+    ]
+  },
+  "65": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "64",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 250,
+      "height": 333,
+      "crop": "center"
+    }
+  },
+  "66": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "63",
+        0
+      ],
+      "source": [
+        "65",
+        0
+      ],
+      "x": 966,
+      "y": 664,
+      "resize_source": false
+    }
+  },
+  "67": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 512,
+      "height": 36,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "68": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "67",
+        0
+      ],
+      "text": "Nomad  ·  v1: hood hides the silver hair",
+      "font_size": 50.0,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "69": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "66",
+        0
+      ],
+      "source": [
+        "68",
+        0
+      ],
+      "x": 1312,
+      "y": 590,
+      "resize_source": false
+    }
+  },
+  "70": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 250,
+      "height": 30,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "71": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "70",
+        0
+      ],
+      "text": "v1  ·  rejected",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "72": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "69",
+        0
+      ],
+      "source": [
+        "71",
+        0
+      ],
+      "x": 1312,
+      "y": 630,
+      "resize_source": false
+    }
+  },
+  "73": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 250,
+      "height": 30,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "74": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "73",
+        0
+      ],
+      "text": "v2  ·  final",
+      "font_size": 50.0,
+      "color": "#E8B04B",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "75": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "72",
+        0
+      ],
+      "source": [
+        "74",
+        0
+      ],
+      "x": 1574,
+      "y": 630,
+      "resize_source": false
+    }
+  },
+  "76": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "34_process_nomad_v1.png"
+    },
+    "is_changed": [
+      "d2b6a07d0a603c4053ec0cbc3caf4c0be90bcbb9226965ecad7fc3fd3e49d8eb"
+    ]
+  },
+  "77": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "76",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 250,
+      "height": 333,
+      "crop": "center"
+    }
+  },
+  "78": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "75",
+        0
+      ],
+      "source": [
+        "77",
+        0
+      ],
+      "x": 1312,
+      "y": 664,
+      "resize_source": false
+    }
+  },
+  "79": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "24_game_courier_nomad.png"
+    },
+    "is_changed": [
+      "f80bb59bb1092c4a9e51e620a32f8fb156e4e2f17530fbeb3bd189530175f929"
+    ]
+  },
+  "80": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "79",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 250,
+      "height": 333,
+      "crop": "center"
+    }
+  },
+  "81": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "78",
+        0
+      ],
+      "source": [
+        "80",
+        0
+      ],
+      "x": 1574,
+      "y": 664,
+      "resize_source": false
+    }
+  },
+  "82": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "81",
+        0
+      ],
+      "filename_prefix": "portfolio/pages/14_process_sheet_to_skin"
+    }
+  }
+}

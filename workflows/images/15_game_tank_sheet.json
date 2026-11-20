@@ -30,16 +30,6 @@
     ]
   },
   "5": {
-    "class_type": "CLIPTextEncode",
-    "inputs": {
-      "text": "game art bible page for the fictional heavy tank from the reference image: exactly three large views of the same tank side by side on a plain light grey background, left a flat side elevation, middle a flat front elevation facing the viewer, right a three-quarter perspective view, identical riveted olive-drab hull, turret and long gun in all three, generous spacing, no writing anywhere, no labels, no insignia",
-      "clip": [
-        "2",
-        0
-      ]
-    }
-  },
-  "6": {
     "class_type": "ImageScaleToTotalPixels",
     "inputs": {
       "upscale_method": "lanczos",
@@ -51,11 +41,11 @@
       ]
     }
   },
-  "7": {
+  "6": {
     "class_type": "VAEEncode",
     "inputs": {
       "pixels": [
-        "6",
+        "5",
         0
       ],
       "vae": [
@@ -64,37 +54,53 @@
       ]
     }
   },
-  "8": {
-    "class_type": "ReferenceLatent",
+  "7": {
+    "class_type": "KSamplerSelect",
     "inputs": {
-      "conditioning": [
-        "5",
-        0
-      ],
-      "latent": [
-        "7",
+      "sampler_name": "euler"
+    }
+  },
+  "8": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "the exact same fictional tank as in the reference image: same boxy turret with a tall cylindrical commander cupola, same long gun with a muzzle brake, same riveted olive-drab hull with sloped front plate and two round headlights, six large road wheels per side, wide tracks, cylindrical drum mounted on the rear, strict orthographic left side profile view, the gun points to the right and is parallel to the ground, all six road wheels visible in a row, isolated on a plain light grey studio background, soft even studio lighting, clean technical concept art render, whole vehicle visible with margin, no text, no markings, no insignia, no ground scenery",
+      "clip": [
+        "2",
         0
       ]
     }
   },
   "9": {
-    "class_type": "ConditioningZeroOut",
+    "class_type": "ReferenceLatent",
     "inputs": {
       "conditioning": [
-        "5",
+        "8",
+        0
+      ],
+      "latent": [
+        "6",
         0
       ]
     }
   },
   "10": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "8",
+        0
+      ]
+    }
+  },
+  "11": {
     "class_type": "EmptyFlux2LatentImage",
     "inputs": {
       "width": 1344,
       "height": 768,
-      "batch_size": 1
+      "batch_size": 3
     }
   },
-  "11": {
+  "12": {
     "class_type": "Flux2Scheduler",
     "inputs": {
       "steps": 4,
@@ -102,7 +108,7 @@
       "height": 768
     }
   },
-  "12": {
+  "13": {
     "class_type": "CFGGuider",
     "inputs": {
       "cfg": 1.0,
@@ -111,25 +117,19 @@
         0
       ],
       "positive": [
-        "8",
+        "9",
         0
       ],
       "negative": [
-        "9",
+        "10",
         0
       ]
-    }
-  },
-  "13": {
-    "class_type": "KSamplerSelect",
-    "inputs": {
-      "sampler_name": "euler"
     }
   },
   "14": {
     "class_type": "RandomNoise",
     "inputs": {
-      "noise_seed": 2711405
+      "noise_seed": 3201
     }
   },
   "15": {
@@ -140,19 +140,19 @@
         0
       ],
       "guider": [
-        "12",
-        0
-      ],
-      "sampler": [
         "13",
         0
       ],
+      "sampler": [
+        "7",
+        0
+      ],
       "sigmas": [
-        "11",
+        "12",
         0
       ],
       "latent_image": [
-        "10",
+        "11",
         0
       ]
     }
@@ -171,13 +171,443 @@
     }
   },
   "17": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "16",
+        0
+      ],
+      "batch_index": 2,
+      "length": 1
+    }
+  },
+  "18": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "the exact same fictional tank as in the reference image: same boxy turret with a tall cylindrical commander cupola, same long gun with a muzzle brake, same riveted olive-drab hull with sloped front plate and two round headlights, six large road wheels per side, wide tracks, cylindrical drum mounted on the rear, strict orthographic front view, the vehicle faces the viewer head-on, the gun barrel points straight at the camera, symmetrical, isolated on a plain light grey studio background, soft even studio lighting, clean technical concept art render, whole vehicle visible with margin, no text, no markings, no insignia, no ground scenery",
+      "clip": [
+        "2",
+        0
+      ]
+    }
+  },
+  "19": {
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "18",
+        0
+      ],
+      "latent": [
+        "6",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "18",
+        0
+      ]
+    }
+  },
+  "21": {
+    "class_type": "EmptyFlux2LatentImage",
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 3
+    }
+  },
+  "22": {
+    "class_type": "Flux2Scheduler",
+    "inputs": {
+      "steps": 4,
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "23": {
+    "class_type": "CFGGuider",
+    "inputs": {
+      "cfg": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "19",
+        0
+      ],
+      "negative": [
+        "20",
+        0
+      ]
+    }
+  },
+  "24": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 3202
+    }
+  },
+  "25": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "24",
+        0
+      ],
+      "guider": [
+        "23",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "22",
+        0
+      ],
+      "latent_image": [
+        "21",
+        0
+      ]
+    }
+  },
+  "26": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "25",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "27": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "26",
+        0
+      ],
+      "batch_index": 1,
+      "length": 1
+    }
+  },
+  "28": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "the exact same fictional tank as in the reference image: same boxy turret with a tall cylindrical commander cupola, same long gun with a muzzle brake, same riveted olive-drab hull with sloped front plate and two round headlights, six large road wheels per side, wide tracks, cylindrical drum mounted on the rear, three-quarter front view from the left, slightly elevated camera, isolated on a plain light grey studio background, soft even studio lighting, clean technical concept art render, whole vehicle visible with margin, no text, no markings, no insignia, no ground scenery",
+      "clip": [
+        "2",
+        0
+      ]
+    }
+  },
+  "29": {
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "28",
+        0
+      ],
+      "latent": [
+        "6",
+        0
+      ]
+    }
+  },
+  "30": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "28",
+        0
+      ]
+    }
+  },
+  "31": {
+    "class_type": "EmptyFlux2LatentImage",
+    "inputs": {
+      "width": 1344,
+      "height": 768,
+      "batch_size": 3
+    }
+  },
+  "32": {
+    "class_type": "Flux2Scheduler",
+    "inputs": {
+      "steps": 4,
+      "width": 1344,
+      "height": 768
+    }
+  },
+  "33": {
+    "class_type": "CFGGuider",
+    "inputs": {
+      "cfg": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "29",
+        0
+      ],
+      "negative": [
+        "30",
+        0
+      ]
+    }
+  },
+  "34": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 3203
+    }
+  },
+  "35": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "34",
+        0
+      ],
+      "guider": [
+        "33",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "32",
+        0
+      ],
+      "latent_image": [
+        "31",
+        0
+      ]
+    }
+  },
+  "36": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "35",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "37": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "36",
+        0
+      ],
+      "batch_index": 2,
+      "length": 1
+    }
+  },
+  "38": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1344,
+      "height": 768,
+      "batch_size": 1,
+      "color": 1447964
+    }
+  },
+  "39": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "17",
+        0
+      ],
+      "width": 1344,
+      "height": 768,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "40": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "37",
+        0
+      ],
+      "width": 1344,
+      "height": 768,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "41": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "27",
+        0
+      ],
+      "width": 800,
+      "height": 800,
+      "x": 112,
+      "y": 180
+    }
+  },
+  "42": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "17",
+        0
+      ],
+      "width": 895,
+      "height": 350,
+      "x": 365,
+      "y": 5
+    }
+  },
+  "43": {
     "class_type": "SaveImage",
     "inputs": {
       "filename_prefix": "portfolio/15_game_tank_sheet",
       "images": [
-        "16",
+        "51",
         0
       ]
+    }
+  },
+  "44": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "39",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 660,
+      "height": 371,
+      "crop": "center"
+    }
+  },
+  "45": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "38",
+        0
+      ],
+      "source": [
+        "44",
+        0
+      ],
+      "x": 8,
+      "y": 8,
+      "resize_source": false
+    }
+  },
+  "46": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "40",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 660,
+      "height": 371,
+      "crop": "center"
+    }
+  },
+  "47": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "45",
+        0
+      ],
+      "source": [
+        "46",
+        0
+      ],
+      "x": 676,
+      "y": 8,
+      "resize_source": false
+    }
+  },
+  "48": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "41",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 371,
+      "height": 371,
+      "crop": "center"
+    }
+  },
+  "49": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "47",
+        0
+      ],
+      "source": [
+        "48",
+        0
+      ],
+      "x": 8,
+      "y": 389,
+      "resize_source": false
+    }
+  },
+  "50": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "42",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 949,
+      "height": 371,
+      "crop": "center"
+    }
+  },
+  "51": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "49",
+        0
+      ],
+      "source": [
+        "50",
+        0
+      ],
+      "x": 387,
+      "y": 389,
+      "resize_source": false
     }
   }
 }
