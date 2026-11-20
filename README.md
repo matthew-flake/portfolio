@@ -2,7 +2,7 @@
 
 Selected image work by **Matthew Flake**. Every image here, and every page of the layout, was generated in **ComfyUI** on a single local machine with an 8 GB GPU. No cloud GPU and no external design tools were used. The page layout is a ComfyUI workflow too, built only from core nodes.
 
-📄 **[Download the PDF](matthew-flake-portfolio-2026.pdf)** (6 pages, 1920 × 1080)
+📄 **[Download the PDF](matthew-flake-portfolio-2026.pdf)** (11 pages, 1920 × 1080)
 
 ![Cover](pages/01_cover.png)
 
@@ -24,17 +24,38 @@ An original product (a ceramic aroma diffuser) is generated once as a packshot a
 
 ![Product](pages/05_product.png)
 
-### 04 · Setup & method
-![Setup and method](pages/06_setup_method.png)
+### 04 · Game art: vehicles and naval key art
+Original vehicle designs with no insignia. A cinematic key art image is used as the reference for a three-view sheet, so the design stays the same across views.
+
+![Vehicles](pages/06_game_vehicles.png)
+
+### 05 · Casual mobile: room scene and icon set
+An isometric room in a casual mobile style and a set of nine item icons generated in one consistent look.
+
+![Casual mobile](pages/07_game_casual.png)
+
+### 06 · Anime character with three skins
+An original cel-shaded character turnaround, then three skins generated from it as a reference latent. Face and hair stay the same, while the outfit and setting change.
+
+![Character turnaround](pages/08_game_character.png)
+![Character skins](pages/09_game_skins.png)
+
+### 07 · Key art, environments and expressions
+A sci-fi desert environment concept, a key art image for a mobile fishing game and one casual character in four expressions.
+
+![Key art and environments](pages/10_game_keyart.png)
+
+### 08 · Setup & method
+![Setup and method](pages/11_setup_method.png)
 
 ## What's in this repo
 
 | Folder | Contents |
 |---|---|
-| [`images/`](images) | The 12 source images, full resolution. Each PNG carries its own workflow, so you can drag it into ComfyUI. |
+| [`images/`](images) | The 24 source images, full resolution. Each PNG carries its own workflow, so you can drag it into ComfyUI. |
 | [`workflows/images/`](workflows/images) | One API-format workflow per image (prompt, seed, sampler settings) |
 | [`workflows/pages/`](workflows/pages) | The page-layout workflows (EmptyImage, LoadImage, ImageScale, TextOverlay, ImageCompositeMasked) |
-| [`pages/`](pages) | The six finished pages |
+| [`pages/`](pages) | The eleven finished pages |
 | [`TESTED.md`](TESTED.md) | Hardware, software and measured timings |
 | [`MODELS.md`](MODELS.md) | Model files, where to get them, licences |
 
@@ -58,4 +79,4 @@ I write about ComfyUI under this pen name. The companion workflow packs are publ
 - Workflow JSON files: [MIT](LICENSE)
 - Images, pages and PDF: [CC BY-NC 4.0](LICENSE-IMAGES.md)
 
-The character, the house and the product are original designs made for this collection.
+The characters, vehicles, house and product are original designs made for this collection. None of them is based on an existing game, brand or franchise.

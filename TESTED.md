@@ -20,11 +20,16 @@ These are wall-clock times reported by ComfyUI for each queued job.
 | Key visual, sketch, packshot | Z-Image-Turbo (fp8) | 8 | 3 | 58.4 s (including model load) | ~16 s |
 | Character sheet, scenes, renders, product looks | FLUX.2 [klein] 4B (fp8) | 4 | 9 | 82.4 s (including model load) | ~9.5 s |
 | Re-render of the rain scene | FLUX.2 [klein] 4B (fp8) | 4 | 1 | 9.5 s | ~9.5 s |
-| Page layout, all 6 pages | core image nodes, no model | – | 6 | 1.8 s | ~0.3 s |
+| Page layout, first 6 pages | core image nodes, no model | – | 6 | 1.8 s | ~0.3 s |
+| Game art: vehicle, naval and desert key art | Z-Image-Turbo (fp8) | 8 | 3 | 63.7 s (including model load) | ~16 s |
+| Game art: sheets, casual assets, character and skins | FLUX.2 [klein] 4B (fp8) | 4 | 9 | 69.2 s (including model load) | ~7 s |
+| Game art: re-renders after review | FLUX.2 [klein] 4B (fp8) | 4 | 5 | 42.0 s | ~8 s |
+| Page layout, game pages + setup page | core image nodes, no model | – | 6 | 3.2 s | ~0.5 s |
 
 ## Notes
 
 - Both diffusion models use fp8 weights so they fit in 8 GB of VRAM. Between the Z-Image and FLUX.2 jobs I freed memory with ComfyUI's `/free` endpoint so the two models were never loaded at the same time.
 - Resolutions were kept around 1 MP (for example 1536 × 864, 1344 × 768, 864 × 1152, 1216 × 832).
-- I review every image by eye. Two outputs were rejected and regenerated. In one, the product looked too close to an existing commercial design. In the other, the neon signs came out as garbled text, so the new prompt asks for abstract neon shapes and no lettering.
+- I review every image by eye. Two outputs from the first set were rejected and regenerated. In one, the product looked too close to an existing commercial design. In the other, the neon signs came out as garbled text, so the new prompt asks for abstract neon shapes and no lettering.
+- In the game set, five images were regenerated after review: the vehicle sheet showed six near-identical side views instead of three distinct views, the icon set repeated one item, two skins had pseudo-lettering on signs, and two skins lost the character's hair colour or face. The new prompts ask for exactly three views, list each icon once, and ask for no signs and a visible face and hair.
 - `TextOverlay` sets `font_size` as a percentage of the strip height, with a maximum of 50%. The page workflows size each text strip to stay within that limit.

@@ -2,7 +2,7 @@
 
 Put the files in the standard ComfyUI folders. The names below are the ones used in the workflows; if your copies are named differently, change the loader nodes to match.
 
-## Z-Image-Turbo (images 01–03)
+## Z-Image-Turbo (images 01–03, 13, 14, 16)
 
 | File | Folder | Source | Licence |
 |---|---|---|---|
@@ -12,7 +12,7 @@ Put the files in the standard ComfyUI folders. The names below are the ones used
 
 Settings: `CLIPLoader` type `lumina2`, `ModelSamplingAuraFlow` shift 3, `KSampler` 8 steps, cfg 1, `res_multistep` / `simple`.
 
-## FLUX.2 [klein] 4B (images 04–12)
+## FLUX.2 [klein] 4B (images 04–12, 15, 17–24)
 
 | File | Folder | Source | Licence |
 |---|---|---|---|

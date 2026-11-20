@@ -1,0 +1,362 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1920,
+      "height": 1080,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "2": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 48,
+      "height": 5,
+      "batch_size": 1,
+      "color": 15249483
+    }
+  },
+  "3": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "2",
+        0
+      ],
+      "x": 96,
+      "y": 72,
+      "resize_source": false
+    }
+  },
+  "4": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1400,
+      "height": 75,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "5": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "4",
+        0
+      ],
+      "text": "05   CASUAL MOBILE: ROOM SCENE & ICON SET",
+      "font_size": 49.6,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "6": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "3",
+        0
+      ],
+      "source": [
+        "5",
+        0
+      ],
+      "x": 96,
+      "y": 92,
+      "resize_source": false
+    }
+  },
+  "7": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 50,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "8": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "text": "Casual mobile assets: an isometric room scene and a consistent set of nine item icons for menus, ads and store screenshots.",
+      "font_size": 49.6,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "9": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "6",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "x": 96,
+      "y": 152,
+      "resize_source": false
+    }
+  },
+  "10": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 60,
+      "height": 44,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "11": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "text": "07",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "12": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "9",
+        0
+      ],
+      "source": [
+        "11",
+        0
+      ],
+      "x": 1776,
+      "y": 96,
+      "resize_source": false
+    }
+  },
+  "13": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "14": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "13",
+        0
+      ],
+      "text": "MATTHEW FLAKE  ·  PORTFOLIO 2026  ·  MADE IN COMFYUI",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "15": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "12",
+        0
+      ],
+      "source": [
+        "14",
+        0
+      ],
+      "x": 96,
+      "y": 1034,
+      "resize_source": false
+    }
+  },
+  "16": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 960,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "17": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "16",
+        0
+      ],
+      "text": "Isometric room  ·  FLUX.2 [klein] 4B  ·  4 steps",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "18": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "15",
+        0
+      ],
+      "source": [
+        "17",
+        0
+      ],
+      "x": 96,
+      "y": 940,
+      "resize_source": false
+    }
+  },
+  "19": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 720,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "20": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "text": "Item icons  ·  one prompt, one consistent style",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "21": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "18",
+        0
+      ],
+      "source": [
+        "20",
+        0
+      ],
+      "x": 1088,
+      "y": 940,
+      "resize_source": false
+    }
+  },
+  "22": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "18_game_casual_room.png"
+    },
+    "is_changed": [
+      "487959c825c49e4c7cf8dc8426463817934f35f5fcc38e1606c46b55070a76cc"
+    ]
+  },
+  "23": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "22",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 960,
+      "height": 720,
+      "crop": "center"
+    }
+  },
+  "24": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "21",
+        0
+      ],
+      "source": [
+        "23",
+        0
+      ],
+      "x": 96,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "25": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "19_game_icon_set.png"
+    },
+    "is_changed": [
+      "71c193775a5ec24c02c8c2ccef9d74b691752704cfa313e5fdf2dcd218799139"
+    ]
+  },
+  "26": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "25",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 720,
+      "height": 720,
+      "crop": "center"
+    }
+  },
+  "27": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "24",
+        0
+      ],
+      "source": [
+        "26",
+        0
+      ],
+      "x": 1088,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "28": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "27",
+        0
+      ],
+      "filename_prefix": "portfolio/pages/07_game_casual"
+    }
+  }
+}

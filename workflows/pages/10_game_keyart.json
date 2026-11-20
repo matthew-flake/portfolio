@@ -1,0 +1,440 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1920,
+      "height": 1080,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "2": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 48,
+      "height": 5,
+      "batch_size": 1,
+      "color": 15249483
+    }
+  },
+  "3": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "2",
+        0
+      ],
+      "x": 96,
+      "y": 72,
+      "resize_source": false
+    }
+  },
+  "4": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1400,
+      "height": 75,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "5": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "4",
+        0
+      ],
+      "text": "07   KEY ART, ENVIRONMENTS & EXPRESSIONS",
+      "font_size": 49.6,
+      "color": "#EDE6D6",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "6": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "3",
+        0
+      ],
+      "source": [
+        "5",
+        0
+      ],
+      "x": 96,
+      "y": 92,
+      "resize_source": false
+    }
+  },
+  "7": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 50,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "8": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "text": "Environment concept art, a mobile ad key art and one casual character in four expressions, each from a single workflow.",
+      "font_size": 49.6,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "9": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "6",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "x": 96,
+      "y": 152,
+      "resize_source": false
+    }
+  },
+  "10": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 60,
+      "height": 44,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "11": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "text": "10",
+      "font_size": 50.0,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "12": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "9",
+        0
+      ],
+      "source": [
+        "11",
+        0
+      ],
+      "x": 1776,
+      "y": 96,
+      "resize_source": false
+    }
+  },
+  "13": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1728,
+      "height": 38,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "14": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "13",
+        0
+      ],
+      "text": "MATTHEW FLAKE  ·  PORTFOLIO 2026  ·  MADE IN COMFYUI",
+      "font_size": 49.2,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "15": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "12",
+        0
+      ],
+      "source": [
+        "14",
+        0
+      ],
+      "x": 96,
+      "y": 1034,
+      "resize_source": false
+    }
+  },
+  "16": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1120,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "17": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "16",
+        0
+      ],
+      "text": "Environment concept  ·  sci-fi desert  ·  Z-Image-Turbo",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "18": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "15",
+        0
+      ],
+      "source": [
+        "17",
+        0
+      ],
+      "x": 96,
+      "y": 850,
+      "resize_source": false
+    }
+  },
+  "19": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 576,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "20": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "text": "Ad key art  ·  fishing game  ·  FLUX.2 [klein] 4B",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "21": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "18",
+        0
+      ],
+      "source": [
+        "20",
+        0
+      ],
+      "x": 1248,
+      "y": 544,
+      "resize_source": false
+    }
+  },
+  "22": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 576,
+      "height": 35,
+      "batch_size": 1,
+      "color": 1184534
+    }
+  },
+  "23": {
+    "class_type": "TextOverlay",
+    "inputs": {
+      "images": [
+        "22",
+        0
+      ],
+      "text": "Expression sheet  ·  FLUX.2 [klein] 4B",
+      "font_size": 49.7,
+      "color": "#9C978D",
+      "position": "top",
+      "align": "left",
+      "outline": false
+    }
+  },
+  "24": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "21",
+        0
+      ],
+      "source": [
+        "23",
+        0
+      ],
+      "x": 1248,
+      "y": 926,
+      "resize_source": false
+    }
+  },
+  "25": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "16_game_desert_env.png"
+    },
+    "is_changed": [
+      "0152c26c5006f493c468ec33281a6eadcaf7c9a499e63318e942d16bb74df15a"
+    ]
+  },
+  "26": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "25",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 1120,
+      "height": 630,
+      "crop": "center"
+    }
+  },
+  "27": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "24",
+        0
+      ],
+      "source": [
+        "26",
+        0
+      ],
+      "x": 96,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "28": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "17_game_fishing_keyart.png"
+    },
+    "is_changed": [
+      "45b12c7fca9ba608b290dbf5c50175e4ec61acdd4b1eaf21527e7f2c49e51518"
+    ]
+  },
+  "29": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "28",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 576,
+      "height": 324,
+      "crop": "center"
+    }
+  },
+  "30": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "27",
+        0
+      ],
+      "source": [
+        "29",
+        0
+      ],
+      "x": 1248,
+      "y": 212,
+      "resize_source": false
+    }
+  },
+  "31": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "20_game_expressions.png"
+    },
+    "is_changed": [
+      "f75fd612ff9f461cc6c71794bc307dc43f1c5caca451a62bf647718447d2c8b7"
+    ]
+  },
+  "32": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "31",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 576,
+      "height": 329,
+      "crop": "center"
+    }
+  },
+  "33": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "30",
+        0
+      ],
+      "source": [
+        "32",
+        0
+      ],
+      "x": 1248,
+      "y": 590,
+      "resize_source": false
+    }
+  },
+  "34": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "33",
+        0
+      ],
+      "filename_prefix": "portfolio/pages/10_game_keyart"
+    }
+  }
+}
